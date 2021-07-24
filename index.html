@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 
 <head>
-    <title>Document</title>
+    <title>Rocketseat Web Responsive</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.css" media="screen and (max-width: 768px)" />
     <link rel="stylesheet" href="print.css" media="print">
-    <title>Rocketseat Web Responsive</title>
 </head>
 
 <body>
@@ -61,15 +60,19 @@
     <main>
         <section class="cards">
             <div class="card">
+                <!--
+          <picture class="image" alt="Imagem">
+            <source media="(min-width: 768px)" srcset="https://i.ytimg.com/vi/GykTLqODQuU/maxresdefault.jpg">
+            <source media="(min-width: 320px)" srcset="https://i.ytimg.com/vi/rAzHvYnQ8DY/hqdefault.jpg">
+            <source media="(min-width: 10px)" srcset="https://i.ytimg.com/vi/HN1UjzRSdBk/mqdefault.jpg">
+
+            <img src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg" alt="Imagem" />
+            </picture>
+
+          -->
                 <div class="image">
                     <img src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg" />
                 </div>
-                <!-- <picture class="image" alt="Imagem">
-                    <source media="(min-width: 768px)" srcset="https://i.ytimg.com/vi/GykTLqODQuU/maxresdefault.jpg">
-                    <source media="(min-width: 320px)" srcset="https://i.ytimg.com/vi/rAzHvYnQ8DY/hqdefault.jpg">
-                    <source media="(min-width: 10px)" srcset="https://i.ytimg.com/vi/HN1UjzRSdBk/mqdefault.jpg">
-                    <img src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg" alt="Imagem" />
-                </picture> -->
                 <div class="content">
                     <p class="title text--medium">
                         Formulário Animado com JS puro e CSS Animation | Mayk Brito
@@ -88,6 +91,7 @@
             <h3>Quero Estudar na Rocket!</h3>
             <div class="form-group">
                 <input class="input-control" placeholder="Nome" />
+
                 <input type="email" class="input-control" placeholder="Email" />
             </div>
 
@@ -125,7 +129,8 @@
             <div class="modal-content">
                 <div class="video-background">
                     <div class="video-foreground">
-                        <iframe src="https://www.youtube.com/embed/GykTLqODQuU" frameborder="0" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/GykTLqODQuU" frameborder="0"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
